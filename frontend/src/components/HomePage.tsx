@@ -88,7 +88,7 @@ export function HomePage() {
       {/* Decorative Footer Elements */}
       <div className="absolute bottom-10 left-10">
         <a
-          href="#"
+          href="https://github.com/ninjakrisjac/Lucky-Table"
           target="_blank"
           rel="noopener noreferrer"
           className="text-metal-dim hover:text-white transition-colors"
