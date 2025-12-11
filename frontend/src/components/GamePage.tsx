@@ -10,7 +10,8 @@ import { CONTRACT_ADDRESS, CONTRACT_ABI } from "@/config/wagmi";
 import { encryptChoice, userDecrypt } from "@/lib/fhe";
 import toast from "react-hot-toast";
 
-const phaseMessages = {
+const phaseMessages: Record<string, string> = {
+  home: "",
   selecting: "SELECTION TABLE",
   encrypting: "ENCRYPTING_PAYLOAD...",
   submitting: "BROADCASTING_TX...",
